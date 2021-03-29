@@ -62,6 +62,8 @@ list.html
 
 single.html
 
+- Do replace `docs2` with your folder name
+
 ```
 {{ define "main" }}
 	<div class="row flex-xl-nowrap">
@@ -103,6 +105,8 @@ single.html
 ```
 
 docs2-menu.html 
+
+- Do replace `docs2` with your folder name
 
 ```
 {{ $currentPage := . -}}
